@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #3498db;  /* Light background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+/* Completion Container */
+.completion-container {
+    background-color: #2980b9;
+    width: 100%;
+    max-width: 600px;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #2980b9;  /* Blue color for success */
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-top: 10px;
+}
+
+/* Registration Details Section */
+.registration-details {
+    margin-top: 30px;
+    font-size: 1.1em;
+    color: #34495e;
+}
+
+.registration-details h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #2c3e50;  /* Darker color for the section title */
+}
+
+.details p {
+    margin: 10px 0;
+}
+
+.details strong {
+    color: #2980b9;  /* Blue color for labels */
+}
+
+/* Go Back Button */
+a.back-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 30px;
+    background-color: #2980b9;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+a.back-button:hover {
+    background-color: #3498db;
+}
+
+a.back-button:focus {
+    outline: none;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .completion-container {
+        padding: 20px;
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .registration-details h2 {
+        font-size: 1.5em;
+    }
+
+    a.back-button {
+        padding: 10px 25px;
+        font-size: 1em;
+    }
+}
